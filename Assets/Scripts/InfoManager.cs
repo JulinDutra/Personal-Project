@@ -5,6 +5,7 @@ using System.IO;
 
 public class InfoManager : MonoBehaviour
 {
+    // ENCAPSULATION
     public static InfoManager Instance { get; private set; }
 
     public string playerName;
