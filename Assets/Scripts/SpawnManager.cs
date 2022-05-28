@@ -21,6 +21,7 @@ public class SpawnManager : MonoBehaviour
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
+    // ABSTRACTION
     // Spawn obstacles
     void SpawnObjects()
     {
